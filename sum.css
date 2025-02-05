@@ -1,0 +1,227 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(221, 100%, 96%);
+  }
+  .main{
+    box-shadow: -2px 2px 10px 1px hsl(229, 6%, 66%,0.5);
+      display: flex;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius: 1.5rem;
+     background-color: hsl(0, 0%, 100%);
+  }
+  .container-one{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+      width: 16rem;
+      background-image: linear-gradient(to bottom, #7857ff, #2e2be9);
+      /* background-color: hsl(241, 81%, 54%); */
+      border-radius: 1.5rem;
+      color: hsl(0, 0%, 100%);
+   
+  }
+  .container-two{
+      padding: 1rem;
+      max-width: 100%;
+      width: 15rem;
+      border-radius: right 10px;
+  }
+  .content{ 
+      justify-content: center;
+      align-items: center;  
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .remark{
+    width: 75%;
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .one,.two,.three{
+    margin-bottom: 0.8rem;
+  }
+  .one{
+    
+    display: flex;
+    justify-content: space-around;
+    color:  hsl(0, 100%, 67%);
+    background-color: hsl(39, 100%, 56%,0.074);
+    border-radius: 0.5rem;
+  }
+  .info{
+    margin-left: -2.5rem;
+  }
+  .two{
+    display: flex;
+    justify-content: space-around;
+    color:  hsl(39, 100%, 56%);
+    background-color: hsl(38, 100%, 95%);
+    border-radius: 0.5rem;
+  }
+  .three{
+    display: flex;
+    justify-content: space-around;
+    color:  hsl(166, 100%, 37%);
+    background-color: hsl(165, 100%, 97%);
+    border-radius: 0.5rem;
+  }
+  .four{
+    display: flex;
+    justify-content: space-around;
+    color:  hsl(234, 85%, 45%);
+    background-color: hsl(234, 76%, 95%);
+    border-radius: 0.5rem;
+  }
+  .circle{
+    /* background-color: hsla(256, 72%, 46%, 1); */
+    background: linear-gradient(hsla(256,72%,46%,1),hsla(241,72%,46%,0));
+    width: 9rem;
+    height: 9rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+  }
+  .number{
+    margin-top: 0rem;
+    color: hsl(241, 100%, 89%);
+  }
+  .seven{
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .button{
+    border: none;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+  }
+  .score{
+    color: hsl(224, 30%, 27%)
+  }
+  @media(max-width:500px){
+    .main{
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .container-one{
+      width: 100%;
+      border-radius: 0rem 0rem 2rem 2rem;
+    }
+    .container-two{
+      width: 90%;
+    }
+    .remark{
+      margin-top: -1rem;
+    }
+    .button{
+      margin-bottom: -1rem;
+    }
+    .title{
+      margin-top: 4rem;
+    }
+    .sum{
+      margin-top: 0rem;
+    }
+  }
+  @media(max-width:400px){
+    .main{
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .container-one{
+      width: 100%;
+      border-radius: 0rem 0rem 2rem 2rem;
+    }
+    .container-two{
+      width: 90%;
+    }
+    .remark{
+      margin-top: -1rem;
+    }
+    .button{
+      margin-bottom: -1rem;
+    }
+    .title{
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .sum{
+      margin-top: 0rem;
+    }
+    .circle{
+      margin-bottom: -0.5rem;
+    }
+  }
+ 
+  @media(max-width:440px){
+    .main{
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .container-one{
+      width: 100%;
+      border-radius: 0rem 0rem 2rem 2rem;
+      height: 100%;
+    }
+    .container-two{
+      width: 90%;
+    }
+    .remark{
+      margin-bottom: -0.4rem;
+      margin-top: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    .button{
+      margin-bottom: -1rem;
+    }
+    .title{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .sum{
+      margin-top: 0rem;
+    }
+    .circle{
+      margin-bottom: 0.5rem;
+    }
+  }
